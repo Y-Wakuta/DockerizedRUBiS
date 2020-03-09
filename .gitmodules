@@ -1,0 +1,3 @@
+[submodule "apache/RUBiS"]
+	path = apache/RUBiS
+	url = https://github.com/Y-Wakuta/RUBiS.git

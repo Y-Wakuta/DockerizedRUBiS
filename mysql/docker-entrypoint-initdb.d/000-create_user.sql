@@ -1,0 +1,4 @@
+CREATE USER 'rubis'@'%' IDENTIFIED BY 'rubis';
+GRANT ALL PRIVILEGES ON *.* TO 'rubis'@'%' IDENTIFIED BY 'rubis' WITH GRANT OPTION;
+CREATE USER 'rubis'@'localhost' IDENTIFIED BY 'rubis';
+GRANT ALL PRIVILEGES ON *.* TO 'rubis'@'localhost' IDENTIFIED BY 'rubis' WITH GRANT OPTION;
